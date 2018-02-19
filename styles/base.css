@@ -2,15 +2,10 @@ body {
     width: 100%;
     max-width: 960px;
     margin: auto;
-}
-
-p {
-    margin: 0;
-    padding: 1em;
     color: #666;
 }
 
 div {
     border: 1px solid #666;
-    
+
 }
