@@ -1,0 +1,35 @@
+.col-left {
+    float:left;
+}
+
+-col-right {
+    display:inline-block;
+}
+
+body {
+    height: 768px;
+}
+
+header {
+    height: 9.8%;
+}
+
+.sidebar {
+    height: 19%;
+}
+
+.main-content {
+    height: 16.5%;
+}
+
+.row{
+    height: 24%;
+}
+
+footer div {
+    height: 9%
+}
+.col-content {
+    width:40%;
+    margin: 0;
+}

@@ -1,0 +1,22 @@
+header {
+    background-image: url(http://placehold.it/480x75);
+}
+
+.sidebar {
+    width: 100%;
+    background-image: url(http://placehold.it/480x150);
+}
+
+.main-content {
+    width: 100%;
+    background-image: url(http://placehold.it/480x125);
+}
+
+.col-content{
+    background-image: url(http://placehold.it/240x250);
+}
+
+footer div {
+    background-image: url(http://placehold.it/480x80);
+}
+
