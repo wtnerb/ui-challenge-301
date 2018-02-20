@@ -1,22 +1,66 @@
 header {
     background-image: url(http://placehold.it/480x75);
+    grid-area: header;
 }
 
 .sidebar {
-    width: 100%;
     background-image: url(http://placehold.it/480x150);
+    grid-area: sidebar;
 }
 
 .main-content {
-    width: 100%;
     background-image: url(http://placehold.it/480x125);
 }
 
-.col-content{
+.tbl-content{
     background-image: url(http://placehold.it/240x250);
 }
 
-footer div {
+footer {
     background-image: url(http://placehold.it/480x80);
+    grid-area: footer;
 }
 
+#tbl11{
+    grid-area: row1col1;
+}
+#tbl12{
+    grid-area: row1col2;
+}
+#tbl21{
+    grid-area: row2col1;
+}
+#tbl22{
+    grid-area: row2col2;
+}
+#main1 {
+    grid-area: main1;
+}
+#main2 {
+    grid-area: main2;
+}
+
+@media screen and (min-width: 800px){
+    header {
+        background-image: url(http://placehold.it/960x100);
+        grid-area: header;
+    }
+    
+    .sidebar {
+        background-image: url(http://placehold.it/200x600);
+        grid-area: sidebar;
+    }
+    
+    .main-content {
+        background-image: url(http://placehold.it/380x200);
+    }
+    
+    .tbl-content{
+        background-image: url(http://placehold.it/190x250);
+    }
+    
+    footer {
+        background-image: url(http://placehold.it/760x150);
+        grid-area: footer;
+    }
+}
